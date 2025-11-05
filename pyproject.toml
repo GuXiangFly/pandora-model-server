@@ -1,0 +1,25 @@
+[project]
+name = "pandora-model-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bs4>=0.0.2",
+    "docx2txt>=0.9",
+    "fastapi>=0.116.1",
+    "langchain-openai>=0.3.32",
+    "pydantic>=2.11.9",
+    "pypdf>=6.0.0",
+    "scikit-learn>=1.7.2",
+    "sentence-transformers>=5.1.0",
+    "torch>=2.8.0",
+    "typing>=3.10.0.0",
+    "uvicorn>=0.35.0",
+]
+[registry]
+index-url = "https://mirrors.aliyun.com/pypi/simple/"
+extra-index-urls = [
+    "https://pypi.tuna.tsinghua.edu.cn/simple/",
+    "https://pypi.doubanio.com/simple/"
+]
