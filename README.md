@@ -21,6 +21,8 @@ uv sync
 ```
 
 
+
+## 使用OpenAI的 api调用如下
 并且提供兼容OpenAI规范的 embedding接口。
 调用的使用demo如下
 ```python
@@ -49,7 +51,7 @@ print(openAIEmbedding_model.embed_query("你好啊"))
 ```
 
 
-## API调用如下
+## Http API调用如下
 ```bash
 curl --location --request POST 'http://127.0.0.1:8019/v1/embeddings' \
 --header 'Content-Type: application/json' \
